@@ -251,7 +251,7 @@ Spirae    HOMER  GridBeyond     OpenDSS  pandapower  oemof
 
 # 🧩 Open-Source Microgrid Ecosystem
 
-> 💡 **Overview:** The open-source microgrid software landscape spans real-time energy management (EMS), power distribution modeling, techno-economic optimization, IoT telemetry, and co-simulation. The table below consolidates all active open-source projects, equipped with live GitHub Stars_Badges and sorted by popularity.
+> 💡 **Overview:** The open-source microgrid software landscape spans real-time energy management (EMS), power distribution modeling, techno-economic optimization, IoT telemetry, and co-simulation. The table below consolidates all active open-source projects, equipped with live GitHub_Stars_Badges and sorted by popularity.
 
 | Open-Source Project | GitHub_Stars | Primary Role | Key Capabilities | Microgrid Relevance |
 | :--- | :--- | :--- | :--- | :---: |
