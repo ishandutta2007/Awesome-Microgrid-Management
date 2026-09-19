@@ -325,59 +325,30 @@ Spirae    HOMER  GridBeyond     OpenDSS  pandapower  oemof
 
 # 📊 Microgrid Capability Matrix
 
-
-
-| Platform         | EMS | DER Control | Simulation | Optimization | Islanding | Storage | Forecasting | SCADA |
-
-| ---------------- | --: | ----------: | ---------: | -----------: | --------: | ------: | ----------: | ----: |
-
-| EcoStruxure      |   ✅ |           ✅ |          ✅ |            ✅ |         ✅ |       ✅ |           ✅ |     ✅ |
-
-| ETAP μGrid       |   ✅ |           ✅ |          ✅ |            ✅ |         ✅ |       ✅ |           ✅ |     ✅ |
-
-| Gridscape        |   ✅ |           ✅ |         ⚠️ |            ✅ |         ✅ |       ✅ |           ✅ |     ✅ |
-
-| Scale Microgrids |   ✅ |           ✅ |         ⚠️ |            ✅ |         ✅ |       ✅ |           ✅ |    ⚠️ |
-
-| Spirae           |   ✅ |           ✅ |         ⚠️ |            ✅ |         ✅ |       ✅ |           ✅ |     ✅ |
-
-| Siemens          |   ✅ |           ✅ |          ✅ |            ✅ |         ✅ |       ✅ |           ✅ |     ✅ |
-
-| HOMER Grid       |  ⚠️ |          ⚠️ |          ✅ |            ✅ |        ⚠️ |       ✅ |          ⚠️ |     ❌ |
-
-| GridBeyond       |   ✅ |           ✅ |         ⚠️ |            ✅ |        ⚠️ |       ✅ |           ✅ |    ⚠️ |
-
-| **OpenEMS**      |   ✅ |           ✅ |         ⚠️ |            ✅ |        ⚠️ |       ✅ |          ⚠️ |    ⚠️ |
-
-| **GridLAB-D**    |  ⚠️ |          ⚠️ |          ✅ |           ⚠️ |        ⚠️ |       ✅ |          ⚠️ |    ⚠️ |
-
-| **OpenDSS**      |   ❌ |          ⚠️ |          ✅ |           ⚠️ |        ⚠️ |       ✅ |          ⚠️ |     ❌ |
-
-| **pandapower**   |   ❌ |          ⚠️ |          ✅ |            ✅ |        ⚠️ |      ⚠️ |          ⚠️ |     ❌ |
-
-| **PyPSA**        |  ⚠️ |          ⚠️ |          ✅ |            ✅ |        ⚠️ |       ✅ |          ⚠️ |     ❌ |
-
-| **oemof.solph**  |   ❌ |           ❌ |         ⚠️ |            ✅ |         ❌ |       ✅ |          ⚠️ |     ❌ |
-
-| **REopt API**    |   ❌ |           ❌ |         ⚠️ |            ✅ |        ⚠️ |       ✅ |          ⚠️ |     ❌ |
-
-| **HOPP**         |   ❌ |           ❌ |         ⚠️ |            ✅ |         ❌ |       ✅ |          ⚠️ |     ❌ |
-
-| **MicroGridsPy** |   ❌ |           ❌ |          ✅ |            ✅ |        ⚠️ |       ✅ |          ⚠️ |     ❌ |
-
-
+| Platform | EMS | DER Control | Simulation | Optimization | Islanding | Storage | Forecasting | SCADA |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **EcoStruxure** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **ETAP μGrid** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Gridscape** | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Scale Microgrids** | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ⚠️ |
+| **Spirae** | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Siemens** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **HOMER Grid** | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ❌ |
+| **GridBeyond** | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ✅ | ⚠️ |
+| **OpenEMS** | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ✅ | ⚠️ | ⚠️ |
+| **GridLAB-D** | ⚠️ | ⚠️ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ | ⚠️ |
+| **OpenDSS** | ❌ | ⚠️ | ✅ | ⚠️ | ⚠️ | ✅ | ⚠️ | ❌ |
+| **pandapower** | ❌ | ⚠️ | ✅ | ✅ | ⚠️ | ⚠️ | ⚠️ | ❌ |
+| **PyPSA** | ⚠️ | ⚠️ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ❌ |
+| **oemof.solph** | ❌ | ❌ | ⚠️ | ✅ | ❌ | ✅ | ⚠️ | ❌ |
+| **REopt API** | ❌ | ❌ | ⚠️ | ✅ | ⚠️ | ✅ | ⚠️ | ❌ |
+| **HOPP** | ❌ | ❌ | ⚠️ | ✅ | ❌ | ✅ | ⚠️ | ❌ |
+| **MicroGridsPy** | ❌ | ❌ | ✅ | ✅ | ⚠️ | ✅ | ⚠️ | ❌ |
 
 **Legend:**
-
-
-
-* ✅ = Strong/native capability
-
-* ⚠️ = Possible through integration/customization
-
-* ❌ = Not a primary capability
-
-
+- ✅ = Strong/native capability
+- ⚠️ = Possible through integration/customization
+- ❌ = Not a primary capability
 
 ---
 
