@@ -299,47 +299,25 @@ Spirae    HOMER  GridBeyond     OpenDSS  pandapower  oemof
 
 # 🔄 Commercial → Open-Source Mapping
 
+| Commercial Platform | Comparable Open-Source Stack / Architectural Options |
+| :--- | :--- |
+| **Schneider EcoStruxure Microgrid Advisor** | OpenEMS + PyPSA + Grafana + OpenFMB |
+| **ETAP μGrid** | OpenEMS + OpenDSS + pandapower + GridLAB-D + HELICS |
+| **Gridscape** | OpenEMS + OpenDSS + Grafana + Node-RED |
+| **Scale Microgrids** | OpenEMS + PyPSA + REopt + IoT/SCADA stack |
+| **PowerHub** | OpenEMS + Grafana + ThingsBoard |
+| **Spirae** | OpenEMS + OpenFMB + HELICS + GridLAB-D |
+| **Siemens Microgrid Solutions** | OpenEMS + OpenDSS + GridLAB-D + OpenFMB |
+| **HOMER Grid** | PyPSA + oemof.solph + REopt + HOPP |
+| **Enchanted Rock** | OpenEMS + GridLAB-D + OpenFMB + SCADA |
+| **GridBeyond** | OpenEMS + PyPSA + OpenADR + Optimization Stack |
+| **Eaton Microgrid Solutions** | OpenEMS + OpenDSS + Node-RED + Grafana |
+| **Honeywell Microgrid Solutions** | OpenEMS + OpenSCADA + GridLAB-D |
+| **Microgrid design / sizing** | HOPP + REopt + MicroGridsPy + PyPSA |
+| **DER simulation** | GridLAB-D + OpenDSS + pandapower |
+| **Energy optimization** | PyPSA + oemof + REopt |
 
-
-| Commercial Platform                         | Comparable Open-Source Options                      |
-
-| ------------------------------------------- | --------------------------------------------------- |
-
-| **Schneider EcoStruxure Microgrid Advisor** | OpenEMS + PyPSA + Grafana + OpenFMB                 |
-
-| **ETAP μGrid**                              | OpenEMS + OpenDSS + pandapower + GridLAB-D + HELICS |
-
-| **Gridscape**                               | OpenEMS + OpenDSS + Grafana + Node-RED              |
-
-| **Scale Microgrids**                        | OpenEMS + PyPSA + REopt + IoT/SCADA stack           |
-
-| **PowerHub**                                | OpenEMS + Grafana + ThingsBoard                     |
-
-| **Spirae**                                  | OpenEMS + OpenFMB + HELICS + GridLAB-D              |
-
-| **Siemens Microgrid**                       | OpenEMS + OpenDSS + GridLAB-D + OpenFMB             |
-
-| **HOMER Grid**                              | PyPSA + oemof.solph + REopt + HOPP                  |
-
-| **Enchanted Rock**                          | OpenEMS + GridLAB-D + OpenFMB + SCADA               |
-
-| **GridBeyond**                              | OpenEMS + PyPSA + OpenADR + optimization stack      |
-
-| **Eaton Microgrid**                         | OpenEMS + OpenDSS + Node-RED + Grafana              |
-
-| **Honeywell Microgrid**                     | OpenEMS + OpenSCADA + GridLAB-D                     |
-
-| **Microgrid design / sizing**               | HOPP + REopt + MicroGridsPy + PyPSA                 |
-
-| **DER simulation**                          | GridLAB-D + OpenDSS + pandapower                    |
-
-| **Energy optimization**                     | PyPSA + oemof + REopt                               |
-
-
-
-> These are **architectural equivalents**, not claims of complete feature-for-feature parity.
-
-
+> 💡 *Note: These represent architectural equivalents and functional building blocks, not direct 1:1 commercial product replacements.*
 
 ---
 
